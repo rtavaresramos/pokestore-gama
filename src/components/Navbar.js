@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 import { useCart } from '../hooks/cart';
-import Search from './Search';
+// import Search from './Search';
 
 import logo from '../images/pokestore.png';
 
