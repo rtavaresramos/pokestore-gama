@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTruck } from '@fortawesome/free-solid-svg-icons';
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 import { useCart } from '../hooks/cart';
 import Search from './Search';
@@ -25,16 +25,16 @@ const Navbar = ({ search }) => {
             
                 <div className="row">
 
-                    <div className="col-9 col-sm-8">
+                    {/* <div className="col-9 col-sm-8">
                         <Search search={search} />
-                    </div>
+                    </div> */}
 
                     <div className="col-3 col-sm-4">
                         <div className="navbar-cart">
                             
                             <a href="#my-cart">
                               
-                                <FontAwesomeIcon icon={faTruck} />
+                                <FontAwesomeIcon icon={faCartPlus} />
                                 <span className="badge badge-pill badge-success">
                                     {totalQuantItems}
                                 </span>
